@@ -1,0 +1,10 @@
+.skills_box {
+  padding: 12px;
+  text-align: center;
+  border: solid 1px $dark-gray;
+
+  &:hover {
+    background-color: $dark-gray;
+    color: white;
+  }
+}
