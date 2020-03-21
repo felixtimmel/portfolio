@@ -3,12 +3,15 @@
   box-shadow: 0 20px 40px 0 rgba(0,0,0,.4);
   color: white;
 
-
   .project_img {
 
     img {
       width: 100%;
       object-fit: cover;
     }
+  }
+
+  .project_card_content {
+    padding: 60px 20px;
   }
 }

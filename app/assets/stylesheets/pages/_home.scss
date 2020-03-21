@@ -13,6 +13,13 @@ li::before {
   justify-content: space-between;
 }
 
+.about_me {
+  margin: 130px 0;
+
+  .description {
+    margin: 60px 50% 0 0;
+  }
+}
 
 .project_grid {
   display: grid;
@@ -25,5 +32,7 @@ li::before {
 
   .project_content {
     color: white;
+    padding: 150px 0;
   }
+
 }
