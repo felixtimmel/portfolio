@@ -4,8 +4,26 @@ ul {
   display: block;
 }
 
+li::before {
+    color: $red;
+  }
+
 .row {
   display: flex;
   justify-content: space-between;
 }
 
+
+.project_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+}
+
+.projects {
+  background-color: $dark-gray;
+
+  .project_content {
+    color: white;
+  }
+}
