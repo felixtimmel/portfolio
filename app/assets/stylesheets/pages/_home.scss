@@ -1,18 +1,9 @@
 // Specific CSS for your home-page
-ul {
-  list-style-type: circle;
-  display: block;
-}
-
-li::before {
-    color: $red;
-  }
-
 .list {
 
   margin-top: 60px;
 
-  .row {
+  .project_row {
     display: flex;
     justify-content: space-between;
     margin: 0 auto 10px auto;
@@ -23,6 +14,11 @@ li::before {
       list-style: none;
       width: 50%;
       font-size: 21px;
+    }
+
+    li i {
+      color: $red;
+      font-size: 10px;
     }
   }
 }
@@ -82,15 +78,27 @@ li::before {
   .chat_btn {
     margin: 75px 0;
   }
+}
 
-  .chat_links {
+.chat_links {
 
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 
-    i {
-      font-size: 40px;
+  .links_container {
+    width: 50px;
+  }
+
+  i {
+    font-size: 40px;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+      transition: 0.4s;
+      font-size: 48px;
+      cursor: pointer;
     }
+  }
 
-    }
 }
