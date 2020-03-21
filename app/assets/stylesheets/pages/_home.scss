@@ -1,28 +1,4 @@
 // Specific CSS for your home-page
-.list {
-
-  margin-top: 60px;
-
-  .project_row {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto 10px auto;
-    max-width: 520px;
-    text-align: left;
-
-    .item {
-      list-style: none;
-      width: 50%;
-      font-size: 21px;
-    }
-
-    li i {
-      color: $red;
-      font-size: 10px;
-    }
-  }
-}
-
 .about_me {
   margin: 130px 0 200px 0;
 
@@ -57,7 +33,7 @@
   .skill_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 30px;
     margin-top: 60px;
   }
 }
@@ -101,4 +77,27 @@
     }
   }
 
+}
+
+
+@media(max-width: 790px) {
+/* start of medium tablet styles */
+  .project_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills .skill_grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about_me .description {
+    margin: 60px 0 0 0;
+  }
+}
+
+@media(max-width: 500px) {
+
+  .skills .skill_grid {
+    grid-template-columns: 1fr;
+  }
 }

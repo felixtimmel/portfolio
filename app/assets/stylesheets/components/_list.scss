@@ -1,0 +1,29 @@
+.list {
+
+  margin-top: 60px;
+
+  .project_row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 10px auto;
+    text-align: left;
+
+    .item {
+      list-style: none;
+      width: 50%;
+      font-size: 21px;
+    }
+
+    li i {
+      color: $red;
+      font-size: 10px;
+    }
+  }
+}
+
+@media(max-width: 790px) {
+/* start of medium tablet styles */
+  .list .project_row {
+    display: block;
+  }
+}

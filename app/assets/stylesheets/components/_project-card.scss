@@ -14,4 +14,19 @@
   .project_card_content {
     padding: 60px 20px;
   }
+
+  a {
+    color: $red;
+  }
 }
+
+.project_card:hover {
+  transform: skewY(1deg);
+  transition: 0.5s;
+
+  a {
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+}
+
