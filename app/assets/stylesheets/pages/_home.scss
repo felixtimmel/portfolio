@@ -8,13 +8,27 @@ li::before {
     color: $red;
   }
 
-.row {
-  display: flex;
-  justify-content: space-between;
+.list {
+
+  margin-top: 60px;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 10px auto;
+    max-width: 520px;
+    text-align: left;
+
+    .item {
+      list-style: none;
+      width: 50%;
+      font-size: 21px;
+    }
+  }
 }
 
 .about_me {
-  margin: 130px 0;
+  margin: 130px 0 200px 0;
 
   .description {
     margin: 60px 50% 0 0;
@@ -25,6 +39,8 @@ li::before {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 60px;
+  position: relative;
+  top: -80px;
 }
 
 .projects {
@@ -32,7 +48,21 @@ li::before {
 
   .project_content {
     color: white;
-    padding: 150px 0;
+    padding: 0 0 150px 0;
+    text-align: center;
   }
+}
 
+.skills {
+  text-align: center;
+  margin: 130px 0;
+}
+
+.chat {
+  background-color: $light-gray;
+
+  .chat_content {
+    padding: 130px 0;
+    text-align: center;
+  }
 }
