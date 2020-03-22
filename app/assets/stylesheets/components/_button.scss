@@ -11,4 +11,8 @@
     box-shadow: 0 5px 19px 0 rgba(255,0,89,.4);
     transition: 0.25s;
   }
+
+  &:focus {
+    outline: 0;
+  }
 }

@@ -1,4 +1,17 @@
 .navbar {
   padding: 20px;
-  box-shadow: 0 5px 10px 0 $light-gray;
+  box-shadow: 0 2px 10px 0 $light-gray;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+
+  a {
+    margin: 0 12px;
+    padding-bottom: 8px;
+
+    &:hover {
+      border-bottom: solid 1px black;
+    }
+  }
 }
