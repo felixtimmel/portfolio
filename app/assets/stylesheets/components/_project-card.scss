@@ -17,16 +17,22 @@
 
   a {
     color: $red;
+
+    &:hover {
+      text-decoration: underline;
+      transition: 0.5s;
+      color: $red;
+      cursor: pointer;
+    }
+  }
+
+  p {
+    margin: 12px 0;
   }
 }
 
 .project_card:hover {
   transform: skewY(1deg);
   transition: 0.5s;
-
-  a {
-    text-decoration: underline;
-    transition: 0.5s;
-  }
 }
 
