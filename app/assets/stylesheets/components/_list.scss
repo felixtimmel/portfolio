@@ -1,6 +1,8 @@
 .list {
 
+  margin: 0 auto;
   margin-top: 60px;
+  max-width: 650px;
 
   .project_row {
     display: flex;
@@ -9,6 +11,8 @@
     text-align: left;
 
     .item {
+      display: flex;
+      align-items: center;
       list-style: none;
       width: 50%;
       font-size: 21px;

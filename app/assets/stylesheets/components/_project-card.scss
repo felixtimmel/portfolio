@@ -27,8 +27,8 @@
     color: $red;
 
     &:hover {
-      text-decoration: underline;
-      transition: 0.5s;
+      font-weight: bolder;
+      font-style: italic;
       color: $red;
       cursor: pointer;
     }
