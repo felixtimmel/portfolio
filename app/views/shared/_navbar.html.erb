@@ -9,6 +9,14 @@
       <%= link_to "Compétences", root_path(anchor: 'skills') %>
       <%= link_to "Contact", root_path(anchor: 'contact') %>
     </div>
-    <span>🇫🇷 | 🇬🇧</span>
+    <span>
+    <%= link_to root_path do %>
+    🇫🇷
+    <% end %>
+  |
+    <%= link_to english_path do %>
+    🇬🇧
+    <% end %>
+  </span>
   </div>
 </div>
