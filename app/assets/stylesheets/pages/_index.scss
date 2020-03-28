@@ -1,6 +1,10 @@
 // Import page-specific CSS files here.
 @import "home";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: white;
 }
@@ -12,11 +16,11 @@ body {
 
 .heading {
   font-weight: 800;
-  font-size: 45px;
+  font-size: 36px;
 }
 
 .underline {
-  box-shadow: inset 0 -10px 0 #fff, inset 0 -20px 0 $red;
+  box-shadow: inset 0 -8px 0 #fff, inset 0 -15px 0 $red;
 }
 
 img {
@@ -34,5 +38,11 @@ a {
   &:hover {
     text-decoration: none;
     color: black;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }

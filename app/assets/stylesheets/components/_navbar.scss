@@ -6,6 +6,11 @@
   z-index: 2;
   background-color: white;
 
+  .navbar_links {
+    display: flex;
+    align-items: center;
+  }
+
   a {
     margin: 0 12px;
     padding-bottom: 8px;
@@ -13,5 +18,11 @@
     &:hover {
       border-bottom: solid 1px black;
     }
+  }
+}
+
+@media(max-width: 750px) {
+  .text_links {
+    display: none;
   }
 }

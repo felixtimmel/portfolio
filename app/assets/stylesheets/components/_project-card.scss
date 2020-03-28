@@ -13,7 +13,7 @@
   }
 
   .project_card_content {
-    padding: 60px 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -35,12 +35,12 @@
   }
 
   p {
-    margin: 20px 0;
+    margin-top: 20px;
   }
 }
 
 .project_card:hover {
-  transform: scale(1.25);
+  transform: scale(1.1);
   transition: 0.5s;
 }
 
