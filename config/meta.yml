@@ -1,5 +1,5 @@
 meta_product_name: "My portfolio"
 meta_title: "My portfolio - Félix TIMMEL"
 meta_description: "Hy, I'm a junior developer. See my projects here and discover more about me !"
-meta_image: "profil_pic.jpg" # should exist in `app/assets/images/`
+meta_image: "meta_img.png" # should exist in `app/assets/images/`
 twitter_account: "@product_twitter_account"   # required for Twitter Cards
