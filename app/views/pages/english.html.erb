@@ -8,6 +8,7 @@
           After my master in digital marketing, I went to Montreal to discover the coding word by following the <a href="https://www.lewagon.com/fr/montreal/web-development-course/full-time" target="_blank" style="color: #ff0059">Le wagon</a> bootcamp.
         </p>
         <p id="cv"><%= link_to "📋 My CV 👈", asset_path("CV-2020-Web-dev-EN.pdf"), target: "_blank" %></p>
+        <p id="cv"><%= link_to "💻 My Github Profil 👈", 'https://github.com/felixtimmel', target: "_blank" %></p>
       </div>
       <div class="description_image">
         <img src="<%= image_url "profil_pic.jpg" %>" alt="proile image" class="profile_avatar">
@@ -19,13 +20,32 @@
 <div class="projects" id="projets">
   <div class="main_container">
     <div class="project_grid">
+
+      <div class="project_card">
+        <div class="project_img">
+          <img src="<%= image_url "Oveo.PNG" %>" alt="oveo image">
+        </div>
+        <div class="project_card_content">
+          <div>
+            <p style="font-size: small;">Responsive mobile site / React.js</p>
+            <p>
+              Oveo is a platform to find the lyrics of your music <br>  
+              The platform works through your Spotify account, making calls to the API and SDK, as well as the Genius API to retrieve the lyrics of the songs.
+            </p>
+          </div>
+          <div class="project_link">
+            <p><%= link_to "View project", "https://music-lyrics-8b137.firebaseapp.com/", target: "_blank" %></p>
+          </div>
+        </div>
+      </div>
+
       <div class="project_card">
         <div class="project_img">
           <img src="<%= image_url "began-homepage.png" %>" alt="began image">
         </div>
         <div class="project_card_content">
           <div>
-            <p style="font-size: small;">Mobile site</p>
+            <p style="font-size: small;">Mobile site / Ruby</p>
             <p>
               Began is a web-app which aims to guide you towards a vegan diet. <br>
               This is the final project of my 9 week bootcamp.
@@ -43,7 +63,7 @@
         </div>
         <div class="project_card_content">
           <div>
-            <p style="font-size: small;">Website</p>
+            <p style="font-size: small;">Website / Ruby</p>
             <p>ct-studio : Market place for designs</p>
             <p style="font-size: small;">
               To login without having to create an account: <br>
@@ -63,7 +83,7 @@
         </div>
         <div class="project_card_content">
           <div>
-            <p style="font-size: small;">Website</p>
+            <p style="font-size: small;">Website / Ruby</p>
             <p>Cocktailitos : A cocktail platform for applying CRUD operations intended for data persistence.</p>
           </div>
           <div class="project_link">
@@ -96,6 +116,7 @@
     <p class="heading">Skills</p>
     <div class="skill_grid">
       <p class="skills_box">Ruby on Rails</p>
+      <p class="skills_box">React.js</p>
       <p class="skills_box">APIs, JSON, scraping</p>
       <p class="skills_box">Databases, SQL, Postgres</p>
       <p class="skills_box">HTML, CSS, Bootstrap</p>
